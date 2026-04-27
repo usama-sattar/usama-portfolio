@@ -6,6 +6,7 @@ import skeding from "@/public/sked.png";
 import remoto from "@/public/remoto.png";
 import jpcl from "@/public/jpcl.jpg";
 import enatega from "@/public/enatega.jpg";
+import dh from "@/public/dh.png";
 
 export const links = [
   {
@@ -59,31 +60,56 @@ export const experiencesData = [
     date: "Feb 2022 - May 2022",
   },
   {
-    title: "Senior Full-Stack Developer",
-    location: "New York, United States, Remote",
-    description:
-      "I Started as a Junior MERN stack developer, and now working as a senior developer and as a Team Lead.",
-    icon: React.createElement(CgWorkAlt),
-    date: "May 2022 - Apr 2024",
-  },
-  {
     title: "Senior Full Stack Developer",
     location: "Spain, Remote",
     description:
       "Developed Remotoco product from scratch, for a job matching platform and collaborated with the product team to define features and refine product specifications.",
     icon: React.createElement(CgWorkAlt),
-    date: "Apr 2024 - Present",
+    date: "Apr 2024 - Oct 2025",
+  },
+  {
+    title: "Senior Full-Stack Developer",
+    location: "New York, United States, Remote",
+    description:
+      "Handling web, AI and Automation projects, working as a senior developer and as a Team Lead.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2022 - Present",
   },
 ] as const;
 
 export const projectsData = [
+  // {
+  //   title: "Remotoco",
+  //   description:
+  //     "digital platform that connects remote talent with employment opportunities by using AI to facilitate remote recruitment",
+  //   tags: ["React", "Firebase", "Node", "Stripe", "Typescript", "tailwind"],
+  //   imageUrl: remoto,
+  // },
+
+  // {
+  //   title: "Hope App",
+  //   description:
+  //     "wellness-focused mobile application designed to support users through guided resources, personalized experiences, and real-time engagement features",
+  //   tags: ["React Native", "Node", "Supabase", "Typescript", "Expo", "REST APIs"],
+  //   imageUrl: hopeapp,
+  // },
+
   {
-    title: "Remotoco",
+    title: "Design Hinge",
     description:
-      "digital platform that connects remote talent with employment opportunities by using AI to facilitate remote recruitment",
-    tags: ["React", "Firebase", "Node", "Stripe", "Typescript", "tailwind"],
-    imageUrl: remoto,
+      "collaborative design and project management platform that streamlines client communication, project workflows, and creative delivery for design teams",
+    tags: [
+      "React",
+      "Node",
+      "MongoDB",
+      "Typescript",
+      "Tailwind",
+      "Multitenant Architecture",
+      "REST APIs",
+    ],
+    imageUrl: dh,
   },
+
   {
     title: "Skeding",
     description:
@@ -135,14 +161,13 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
+  "AWS",
   "Tailwind",
   "React Native",
   "MongoDB",
@@ -153,7 +178,7 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "Java",
-  "Framer Motion",
+  "RAG",
+  "Automation",
   "PHP",
-  "AWS",
 ] as const;
